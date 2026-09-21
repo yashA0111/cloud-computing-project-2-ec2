@@ -3,7 +3,7 @@
 ## Live Deployment
 
 **EC2 Public URL:**  
-`http://YOUR-EC2-PUBLIC-IP`
+`http://98.91.27.254`
 
 The application is hosted on an **Amazon EC2 Linux instance** and served using **Nginx**.
 
@@ -84,7 +84,7 @@ The EC2 key pair was used to establish an SSH connection to the Amazon Linux ins
 Example:
 
 ```bash
-ssh -i "decode-labs-project-2.pem" ec2-user@YOUR-EC2-PUBLIC-IP
+ssh -i "decode-labs-project-2.pem" ec2-user@98.91.27.254
 ```
 
 The private key is kept locally and is **not included in this repository**.
@@ -156,7 +156,7 @@ sudo systemctl reload nginx
 The website was verified from a browser using the EC2 public IPv4 address:
 
 ```text
-http://YOUR-EC2-PUBLIC-IP
+http://98.91.27.254
 ```
 
 The browser successfully displayed the custom:

@@ -3,7 +3,7 @@
 ## Live Deployment
 
 **EC2 Public URL:**  
-`http://98.91.27.254`
+http://98.91.27.254
 
 The application is hosted on an **Amazon EC2 Linux instance** and served using **Nginx**.
 
